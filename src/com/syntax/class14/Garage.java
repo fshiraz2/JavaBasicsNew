@@ -1,4 +1,4 @@
-package com.syntax.class13;
+package com.syntax.class14;
 
 public class Garage {
 //THESE ARE OBJECTS!
