@@ -10,6 +10,7 @@ public class Question6 {
 				System.out.println("Please enter a string");
 				String rev="";
 				String text=scan.nextLine();//anna -->l=4; 
+				
 				int length=text.length();
 				for(int i=length-1;i>=0;i--) {
 					rev=rev+text.charAt(i);
