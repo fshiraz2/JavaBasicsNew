@@ -18,4 +18,19 @@ public class CreatingMethods {
 	}
 		return grade;
 }
+public static void main(String[] args) {
+		
+		CreatingMethods obj=new CreatingMethods();
+		char g=obj.getGrade(85);
+		System.out.println(g);
+		
+		System.out.println(obj.getGrade(65));//F
+		
+		//if grade is A or B --> good job, otherwise --> study more
+		if(g == 'A' || g =='B' ) {
+			System.out.println("Good job");
+		}else {
+			System.out.println("please study more");
+		}
+	}
 }
