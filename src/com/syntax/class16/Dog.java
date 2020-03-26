@@ -1,6 +1,6 @@
 package com.syntax.class16;
 
-public class Dog {
+public  class Dog {
 
 	String name,size;
 	//instance variables bc inside class and outside method.

@@ -7,6 +7,7 @@ public class Google {
 	    int empId;
 	    double salary;
 	    String name, lastName, title;
+	    
 	    void working() // method header
 	    {// method body
 	        System.out.println(title + " is working");
