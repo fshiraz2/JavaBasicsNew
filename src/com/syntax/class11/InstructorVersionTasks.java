@@ -9,7 +9,7 @@ public class InstructorVersionTasks {
             { "Philippines", "Cambodia", "Vietnam", "Indonesia" },
             { "Morocco", "South Africa", "Namibia", "Uganda", "Eritrea" }, };
     
-    int total=0;
+	int total=0;
     for (int x = 0; x < countries.length; x++) {
         for (int y = 0; y < countries[x].length; y++) {
             System.out.print(countries[x][y] + " ");
