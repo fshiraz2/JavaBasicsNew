@@ -10,16 +10,16 @@ class Parents {
 			    }
 			  
 			}
-class Child extends Parents{
+class Childss extends Parents{
 	
-	Child(String city){
+	Childss(String city){
 		super(city);
 	  }
 }
 	
-class Main{
+class Mainss{
 public static void main (String[]args){
-	 Child obj=new Child("Vienna");
+	 Childss obj=new Childss("Vienna");
 	 
 	}
 }

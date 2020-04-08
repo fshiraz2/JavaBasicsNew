@@ -1,8 +1,7 @@
 package com.syntax.class22;
 
 public class CarObjects {
-		  
-	class CarObjects{
+	
 		  
 		  String model; 
 		  double price; 
@@ -21,7 +20,7 @@ public class CarObjects {
 		    System.out.println(model + " Stock Value " + stockValue);
 		  }
 		  
-		}
+		
 	
 	  public static void main(String[] args) {
 		    CarObjects toyotaCar = new CarObjects("Toyota 2019", 25000,100); 
