@@ -17,7 +17,8 @@ class Masters extends Degree{
 	void getPrerequisite() {
 		System.out.println("get prerequisite");
 	}
-}public class TestDegree {
+}
+public class TestDegree {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		 Degree diploma=new Degree();
