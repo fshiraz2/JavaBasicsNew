@@ -7,8 +7,8 @@ public static void main(String[] args) {
 		
 		int i=10;
 		
-		//auto boxing
-		Integer num=10;
+		//auto boxing-when using primative type as object type
+		Integer num=10;//Integer class
 		String s=num.toString();
 		System.out.println(num.MIN_VALUE);
 		
@@ -20,7 +20,7 @@ public static void main(String[] args) {
 		
 		Boolean bool=true;
 		//auto unboxing
-		boolean b1=bool;
+		boolean b1=bool;//taking out box and putting it back into primitive value
 		
 
 	}

@@ -8,7 +8,7 @@ public static void main(String[] args) {
 		doc.setEmail("");
 		System.out.println(doc.getEmail());
 		
-		doc.setEmail("doctor@yahoo.com");
+		doc.setEmail("doctor@yahoo.com");//null bc not gmail
 		System.out.println(doc.getEmail());
 		
 		doc.setEmail("doctor@gmail.com");

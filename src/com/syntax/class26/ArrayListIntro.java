@@ -7,7 +7,7 @@ public class ArrayListIntro {
 	public static void main(String[] args) {
 		//create an arraylist to store numbers
 		
-		ArrayList<Integer>numbers=new ArrayList<>();
+		ArrayList<Integer>numbers=new ArrayList<>();//in array list you cannot store primitive type.Use Integer
 		numbers.add(10);//autoboxing
 		numbers.add(20);
 		numbers.add(20);
@@ -19,7 +19,7 @@ public class ArrayListIntro {
 		System.out.println(" ------ ------- -----");
 		
 		for(int i=0; i<numbers.size(); i++) {
-			int num=numbers.get(i);//autounboxing
+			int num=numbers.get(i);//autounboxing when using int not INTEGER
 			System.out.println(num);
 		}
 
