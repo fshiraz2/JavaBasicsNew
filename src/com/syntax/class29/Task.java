@@ -1,4 +1,9 @@
 package com.syntax.class29;
+//Create a Set collection in which you need to add names of the countries.
+//In this set we want all objects to be sorted in alphabetical order. 
+//Using 2 different ways retrieve all elements from set.
+//Create a Set of cities in which you want to make sure that insertion order is 
+//maintained. Using Iterator remove any city that starts with “A”;
 
 import java.util.Iterator;
 import java.util.LinkedHashSet;

@@ -17,7 +17,7 @@ package com.syntax.class27;
 //555
 import java.util.ArrayList;
 
-class Main {
+class Alist {
   public static void main(String[] args) {
     ArrayList<Integer> list = new ArrayList<>();
         list.add(111);
