@@ -1,9 +1,11 @@
 package com.Review10_class30;
 
-import java.security.KeyStore.Entry;
+import java.util.Map.Entry;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.Set;
 
 public class MapIntro {
 //                                     ____MAP____
