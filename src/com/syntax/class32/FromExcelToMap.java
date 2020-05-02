@@ -23,8 +23,8 @@ public class FromExcelToMap {
 		Workbook book = new XSSFWorkbook(fis);
 		Sheet sheet = book.getSheet("Sheet1");
 		
-		int rows=sheet.getPhysicalNumberOfRows();
-		int cols =sheet.getRow(0).getLastCellNum();
+		int rows=sheet.getPhysicalNumberOfRows();//need to find outy how many rows
+		int cols =sheet.getRow(0).getLastCellNum();//need to find outy how many columns
 		
 		List<Map<String, String>> listMap=new ArrayList<>();
 		

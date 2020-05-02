@@ -13,11 +13,11 @@ public class WriteToExcel {
 
 	public static void main(String[] args) throws IOException {
 		
-		String filePath=System.getProperty("user.dir")+"/testdata/Test.xlsx";
+		String filePath=System.getProperty("user.dir")+"/testdata/Test.xlsx";//copy and paste the file after user.dir
 		
 		FileInputStream fis=new FileInputStream(filePath);
 		
-		Workbook book=new XSSFWorkbook(fis);
+		Workbook book=new XSSFWorkbook(fis);//build object of workbook 
 		
 		//writing into existing sheet
 		Sheet sheet1=book.getSheet("Sheet1");
@@ -26,9 +26,9 @@ public class WriteToExcel {
 		
 		sheet1.createRow(3).createCell(0).setCellValue("Hichem");
 		
-		Sheet customSheet=book.createSheet("TestSheet");
+		Sheet customSheet=book.createSheet("TestSheet");//create another sheet
 		
-		FileOutputStream fos=new FileOutputStream(filePath);
+		FileOutputStream fos=new FileOutputStream(filePath);//from java will go to desktop
 		
 		book.write(fos);
 
