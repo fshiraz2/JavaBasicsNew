@@ -14,7 +14,7 @@ public class Excelntro {
 
 	public static void main(String[] args) throws IOException {
 		
-		String filePath="C:\\Users\\Owner\\eclipse-workspace\\JavaBasics\\testdata\\Test.xlsx";
+		String filePath="C:\\Users\\Owner\\eclipse-workspace\\JavaBasics/testdata/Test.xlsx";
 		FileInputStream fis=new FileInputStream(filePath);
 		
 		//accessing workbook

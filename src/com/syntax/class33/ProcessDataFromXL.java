@@ -19,11 +19,11 @@ public class ProcessDataFromXL {
 		FileInputStream fis = new FileInputStream(file);
 
 		Workbook book = new XSSFWorkbook(fis);
-		Sheet sheet = book.getSheet("TestData");//null
+		Sheet sheet = book.getSheet("TestData");//use the name of the sheet
 
 		int rows = sheet.getPhysicalNumberOfRows();
 		int cols = sheet.getRow(0).getLastCellNum();
-
+           
 		List<Map<String, String>> xlData = new ArrayList<>();
 
 		for (int r = 1; r < rows; r++) {

@@ -3,17 +3,25 @@ package com.syntax.class33;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-
+//How would handle InputMismatchException?
+//Input Mismatch Exception when user enters mismatch value then programmer expected.
+//
+//
+//Create a static method that will return a List of Exceptions.
+//Inside your method create objects of 4 exception classes using try and catch blocks 
+//and store them inside your list.
+//Call your method inside main and print name and details of all Exception objects.
 public class Task {
 
 	public static void main(String[] args) {
-
+        //to call all methods bc static 
 		List<Exception> list = getAllExceptions();
 		//System.out.println(list.size());
 
+		//to print using iterator
 		Iterator<Exception> eit = list.iterator();
-		while (eit.hasNext()) {
-			eit.next().printStackTrace();
+		while (eit.hasNext()) {//loop through all objects
+			eit.next().printStackTrace();//you can use this instead of get message.Tells everything!
 		}
 	}
 
@@ -32,7 +40,7 @@ public class Task {
 		try {
 			Object ob = new Double(50);
 			Integer i = (Integer) ob;
-		} catch (ClassCastException e) {
+		} catch (ClassCastException e) {//when you try to cast and not correct
 			exceptionList.add(e);
 		}
 

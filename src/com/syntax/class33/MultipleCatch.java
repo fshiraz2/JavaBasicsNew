@@ -14,16 +14,17 @@ public class MultipleCatch {
 		try {
 			
 			FileInputStream fis=new FileInputStream(file);// new FileNotFoundException();
-			fis.close();
+			fis.close();//stream is closed,IO will get Executed
+			
 			Properties prop=new Properties();
 			prop.load(fis);//new IOException();
 			
-		} catch (IOException e) {
+		} catch (IOException e) {//IO exception is child of exception
 			e.printStackTrace();
-		} catch (Exception e) {
+		} catch (Exception e) {//exception is parent, you can handle all of these with exception
 			e.printStackTrace();
 		} 
 
-		System.out.println(" --- END OF THE PROGRAM ----------");
+		System.out.println(" ---------- END OF THE PROGRAM ----------");
 	}
 }

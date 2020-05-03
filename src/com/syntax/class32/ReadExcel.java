@@ -12,8 +12,9 @@ public class ReadExcel {
 
 	public static void main(String[] args) throws IOException {
 		
-		String filePath="/Users/syntax/Documents/Test.xlsx";
+		String filePath = System.getProperty("user.dir") + "/testdata/Test.xlsx";
 		FileInputStream fis=new FileInputStream(filePath);
+		
 		
 		//get an Object of Workbook type
 		Workbook book=new XSSFWorkbook(fis);

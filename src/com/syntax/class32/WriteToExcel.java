@@ -13,7 +13,7 @@ public class WriteToExcel {
 
 	public static void main(String[] args) throws IOException {
 		
-		String filePath=System.getProperty("user.dir")+"/testdata/Test.xlsx";//copy and paste the file after user.dir
+		String filePath = System.getProperty("user.dir") + "/testdata/Test.xlsx";//copy and paste the file after user.dir
 		
 		FileInputStream fis=new FileInputStream(filePath);
 		
