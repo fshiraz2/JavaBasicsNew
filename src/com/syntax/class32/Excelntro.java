@@ -14,14 +14,14 @@ public class Excelntro {
 
 	public static void main(String[] args) throws IOException {
 		
-		String filePath="C:\\Users\\Owner\\eclipse-workspace\\JavaBasics/testdata/Test.xlsx";
+		String filePath="C:\\Users\\Owner\\eclipse-workspace\\JavaBasics\\testdata\\Test.xlsx";
 		FileInputStream fis=new FileInputStream(filePath);
 		
 		//accessing workbook
 		Workbook wbook=new XSSFWorkbook(fis);
 		
 		//accessing sheet
-		Sheet sheet=wbook.getSheet("Sheet3");//usee ss model not sl to import/export
+		Sheet sheet=wbook.getSheet("Sheet1");//usee ss model not sl to import/export
 		
 		//accessing row
 		Row row1=sheet.getRow(0);

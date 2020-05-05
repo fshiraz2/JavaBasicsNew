@@ -12,7 +12,7 @@ public class ReadExcel {
 
 	public static void main(String[] args) throws IOException {
 		
-		String filePath = System.getProperty("user.dir") + "/testdata/Test.xlsx";
+		String filePath = System.getProperty("user.dir") + "\\testdata\\Test.xlsx";
 		FileInputStream fis=new FileInputStream(filePath);
 		
 		
